@@ -1,0 +1,101 @@
+/* Font + Standard Color */
+p,h1,h2,h3,h4,ul,ol,li,div,td,th,address,blockquote,nobr,i,strong,input,select,textarea, pre
+ { font-family: Verdana, Arial; color: #FFC278; }
+
+/* Texte */
+h1
+{
+	font-size: 12pt;
+	margin-bottom: -8px;
+	padding-bottom: 5px;
+	border-bottom: #0852bd 1px solid;
+}
+
+h2 { font-size: 10pt; }
+
+h3 { font-size: 8pt; font-weight:bold; }
+
+p,ul,ol,li,div,td,th,address,nobr,i,select,input,textarea
+  { font-size: 8pt; }
+
+pre { font-family: Courier New; }
+
+p.justify { text-align: justify; }
+
+p.small,b.small,td.small { font-size: 7pt; }
+
+/* Links */
+a:link { color:#FFC278; text-decoration:none; }   
+a:visited { color:#CD9657; text-decoration:none;}
+a:active { text-decoration:underline; }
+a:hover { text-decoration:underline; }
+
+a.whitelink { color:#ffffff; text-decoration:none; }
+a.white:visited { color:#ffffff; text-decoration:none;}
+a.white:active { text-decoration:underline; }
+a.white:hover { text-decoration:underline; }
+
+/* Tabellen */
+table.blue	    { border: 1 solid #0852BD; }
+td.blue		    { color: #ffffff; background-color: #1063CE; }
+
+table.panel         { font-size: 8pt; }
+td.panel_header     { background-image: url(grafix/panel_header.html); color: #FFFFFF; font-weight:bold; }
+td.panel_item       { background-image: url(grafix/panel_item.html); }
+td.panel_footer     { background-image: url(grafix/panel_footer.html); font-size: 7pt; }
+td.panel_footer_col { background-image: url(grafix/panel_footer_col.html); font-size: 7pt; }
+
+
+/* Eingabe-Elemente */
+input.default,select.default,textarea.default { background-color: #ffffff; border: 1 solid #0852BD; }
+input.required,select.required,textarea.required,td.required { background-color: #FFEFEF ; }
+input.button { color: #2F60C0; font-weight:bold; }
+input.white { background-color: #FFFFFF; border: 0; }
+input.image { border: 0; }
+
+h3.news_gothic2 {
+  text-align: left;
+  color: #FFC278;
+  display: inline;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h3.news_addon{
+  text-align: left;
+  color: #F8F8FD;
+  display: inline;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h3.newshead_gothic2 {
+  text-align: left;
+  color: #FFC278;
+  display: inline;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h3.newshead_addon{
+  text-align: left;
+  color: #F8F8FD;
+  display: inline;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Bilder */
+img { border: 0; }
+
+li
+{
+	list-style-type: square;
+}
+
+pre
+{
+	font-size: 8pt;
+	font-family: 'Courier New';
+	background-color: #f7f7d6;
+}
